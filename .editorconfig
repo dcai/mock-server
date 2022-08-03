@@ -1,0 +1,27 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 4
+
+[Makefile]
+indent_style = tab
+
+[git/config]
+indent_style = tab
+
+[*.{json,js,jsx,ts,tsx,yaml}]
+indent_style = space
+indent_size = 2
+
+[*.py]
+indent_style = space
+indent_size = 4
+
+[*.{cs,csx,fsx}]
+end_of_line = crlf
+charset = utf-8-bom
+trim_trailing_whitespace = false
+insert_final_newline = false
